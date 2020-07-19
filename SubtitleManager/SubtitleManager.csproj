@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageId>SubtitleManager</PackageId>
     <Title>Subtitle Manager</Title>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>Mirča Milanov</Authors>
     <Company>SubtitleManager</Company>
     <Description>
@@ -13,7 +13,7 @@
     </Description>
     <RepositoryUrl>https://github.com/mikanaaa/Subtitle-Manager</RepositoryUrl>
     <PackageTags>Subtitle, Srt, SubRip, Serialization, Parsing, Video</PackageTags>
-    <Copyright>MIT</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
 </Project>
