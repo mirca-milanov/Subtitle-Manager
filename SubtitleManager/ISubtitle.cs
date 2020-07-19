@@ -3,8 +3,8 @@ using System.Collections.Generic;
 
 namespace SubtitleManager
 {
-    public interface ISubtitle
-    {
-        List<ISubtitleBlock> Subtitles { get; set; }
-    }
+  public interface ISubtitle
+  {
+    List<ISubtitleLine> Lines { get; set; }
+  }
 }
