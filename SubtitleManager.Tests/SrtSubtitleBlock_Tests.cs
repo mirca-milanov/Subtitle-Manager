@@ -48,7 +48,19 @@ our final approach into Coruscant.";
             string actualText = subtitleBlock.Text;
             //Assert
             Assert.Equal(actualText, expectedText);
-
+        }
+        [Fact]
+        public void ShouldSerializeBlock()
+        {
+            //Arrange
+            string expected = @"157
+00:02:17,440 --> 00:02:20,375
+Senator, we're making
+our final approach into Coruscant.";
+            //Act
+            string actual = subtitleBlock.ToString();
+            //Assert
+            Assert.Equal(expected, actual);
         }
     }
 }
